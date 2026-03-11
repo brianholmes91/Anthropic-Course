@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:/Ai Coding Repo/Anthropic Course/uigen\" && npm run dev)",
+      "Bash(cd \"C:/Ai Coding Repo/Anthropic Course/uigen\" && NODE_OPTIONS='--require ./node-compat.cjs' npx next dev --turbopack)"
+    ]
+  }
+}
