@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(cd \"C:/Ai Coding Repo/Anthropic Course/uigen\" && npm run dev)",
-      "Bash(cd \"C:/Ai Coding Repo/Anthropic Course/uigen\" && NODE_OPTIONS='--require ./node-compat.cjs' npx next dev --turbopack)"
+      "Bash(cd \"C:/Ai Coding Repo/Anthropic Course/uigen\" && NODE_OPTIONS='--require ./node-compat.cjs' npx next dev --turbopack)",
+      "Bash(cd \"/c/Ai Coding Repo/Anthropic Course/uigen\" && npm audit 2>&1)",
+      "Bash(cd \"/c/Ai Coding Repo/Anthropic Course/uigen\" && npm audit fix 2>&1)",
+      "Bash(cd \"/c/Ai Coding Repo/Anthropic Course/uigen\" && npm install next@15.5.12 2>&1)",
+      "Bash(cd \"/c/Ai Coding Repo/Anthropic Course/uigen\" && grep -r \"from 'ai'\" src/ --include=\"*.ts\" --include=\"*.tsx\" -l)",
+      "Bash(cd \"C:\\\\Ai Coding Repo\\\\Anthropic Course\\\\uigen\" && npx vitest src/hooks/__tests__/use-auth.test.ts --reporter=verbose 2>&1)",
+      "mcp__playwright",
+      "Bash(start http://localhost:3000)"
     ]
   }
 }
